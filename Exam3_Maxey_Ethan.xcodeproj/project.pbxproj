@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4E2E272B03F0CC00E0BD64 /* Exam3_Maxey_EthanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E262B03F0CC00E0BD64 /* Exam3_Maxey_EthanApp.swift */; };
+		FD4E2E292B03F0CC00E0BD64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E282B03F0CC00E0BD64 /* ContentView.swift */; };
+		FD4E2E2B2B03F0CE00E0BD64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4E2E2A2B03F0CE00E0BD64 /* Assets.xcassets */; };
+		FD4E2E2E2B03F0CE00E0BD64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4E2E2D2B03F0CE00E0BD64 /* Preview Assets.xcassets */; };
+		FD4E2E342B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FD4E2E332B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD4E2E392B03F0CE00E0BD64 /* Exam3_Maxey_EthanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E382B03F0CE00E0BD64 /* Exam3_Maxey_EthanApp.swift */; };
+		FD4E2E3B2B03F0CE00E0BD64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E3A2B03F0CE00E0BD64 /* ContentView.swift */; };
+		FD4E2E3D2B03F0CE00E0BD64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4E2E3C2B03F0CE00E0BD64 /* Assets.xcassets */; };
+		FD4E2E402B03F0CE00E0BD64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4E2E3F2B03F0CE00E0BD64 /* Preview Assets.xcassets */; };
+		FD4E2E4C2B03F7E400E0BD64 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E4B2B03F7E400E0BD64 /* SyncService.swift */; };
+		FD4E2E4D2B03F7E400E0BD64 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E4B2B03F7E400E0BD64 /* SyncService.swift */; };
+		FD4E2E4F2B03F88E00E0BD64 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E4E2B03F88E00E0BD64 /* Resnet50.mlmodel */; };
+		FD4E2E512B03F8FD00E0BD64 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E502B03F8FD00E0BD64 /* ImagePicker.swift */; };
+		FD4E2E532B03F94300E0BD64 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E522B03F94300E0BD64 /* Classifier.swift */; };
+		FD4E2E552B03F96300E0BD64 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E2E542B03F96300E0BD64 /* ImageClassifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD4E2E352B03F0CE00E0BD64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4E2E1B2B03F0CC00E0BD64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4E2E322B03F0CE00E0BD64;
+			remoteInfo = "Exam3_Maxey_Ethan Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD4E2E462B03F0CE00E0BD64 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FD4E2E342B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD4E2E232B03F0CC00E0BD64 /* Exam3_Maxey_Ethan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exam3_Maxey_Ethan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4E2E262B03F0CC00E0BD64 /* Exam3_Maxey_EthanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam3_Maxey_EthanApp.swift; sourceTree = "<group>"; };
+		FD4E2E282B03F0CC00E0BD64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD4E2E2A2B03F0CE00E0BD64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD4E2E2D2B03F0CE00E0BD64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD4E2E332B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exam3_Maxey_Ethan Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4E2E382B03F0CE00E0BD64 /* Exam3_Maxey_EthanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam3_Maxey_EthanApp.swift; sourceTree = "<group>"; };
+		FD4E2E3A2B03F0CE00E0BD64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD4E2E3C2B03F0CE00E0BD64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD4E2E3F2B03F0CE00E0BD64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD4E2E4B2B03F7E400E0BD64 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
+		FD4E2E4E2B03F88E00E0BD64 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		FD4E2E502B03F8FD00E0BD64 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FD4E2E522B03F94300E0BD64 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		FD4E2E542B03F96300E0BD64 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD4E2E202B03F0CC00E0BD64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E2E302B03F0CE00E0BD64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD4E2E1A2B03F0CC00E0BD64 = {
+			isa = PBXGroup;
+			children = (
+				FD4E2E4A2B03F7CD00E0BD64 /* Shared */,
+				FD4E2E252B03F0CC00E0BD64 /* Exam3_Maxey_Ethan */,
+				FD4E2E372B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App */,
+				FD4E2E242B03F0CC00E0BD64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD4E2E242B03F0CC00E0BD64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E2E232B03F0CC00E0BD64 /* Exam3_Maxey_Ethan.app */,
+				FD4E2E332B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD4E2E252B03F0CC00E0BD64 /* Exam3_Maxey_Ethan */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E2E4E2B03F88E00E0BD64 /* Resnet50.mlmodel */,
+				FD4E2E262B03F0CC00E0BD64 /* Exam3_Maxey_EthanApp.swift */,
+				FD4E2E282B03F0CC00E0BD64 /* ContentView.swift */,
+				FD4E2E502B03F8FD00E0BD64 /* ImagePicker.swift */,
+				FD4E2E2A2B03F0CE00E0BD64 /* Assets.xcassets */,
+				FD4E2E2C2B03F0CE00E0BD64 /* Preview Content */,
+				FD4E2E522B03F94300E0BD64 /* Classifier.swift */,
+				FD4E2E542B03F96300E0BD64 /* ImageClassifier.swift */,
+			);
+			path = Exam3_Maxey_Ethan;
+			sourceTree = "<group>";
+		};
+		FD4E2E2C2B03F0CE00E0BD64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E2E2D2B03F0CE00E0BD64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD4E2E372B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E2E382B03F0CE00E0BD64 /* Exam3_Maxey_EthanApp.swift */,
+				FD4E2E3A2B03F0CE00E0BD64 /* ContentView.swift */,
+				FD4E2E3C2B03F0CE00E0BD64 /* Assets.xcassets */,
+				FD4E2E3E2B03F0CE00E0BD64 /* Preview Content */,
+			);
+			path = "Exam3_Maxey_Ethan Watch App";
+			sourceTree = "<group>";
+		};
+		FD4E2E3E2B03F0CE00E0BD64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E2E3F2B03F0CE00E0BD64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD4E2E4A2B03F7CD00E0BD64 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E2E4B2B03F7E400E0BD64 /* SyncService.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD4E2E222B03F0CC00E0BD64 /* Exam3_Maxey_Ethan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4E2E472B03F0CE00E0BD64 /* Build configuration list for PBXNativeTarget "Exam3_Maxey_Ethan" */;
+			buildPhases = (
+				FD4E2E1F2B03F0CC00E0BD64 /* Sources */,
+				FD4E2E202B03F0CC00E0BD64 /* Frameworks */,
+				FD4E2E212B03F0CC00E0BD64 /* Resources */,
+				FD4E2E462B03F0CE00E0BD64 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4E2E362B03F0CE00E0BD64 /* PBXTargetDependency */,
+			);
+			name = Exam3_Maxey_Ethan;
+			productName = Exam3_Maxey_Ethan;
+			productReference = FD4E2E232B03F0CC00E0BD64 /* Exam3_Maxey_Ethan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD4E2E322B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4E2E432B03F0CE00E0BD64 /* Build configuration list for PBXNativeTarget "Exam3_Maxey_Ethan Watch App" */;
+			buildPhases = (
+				FD4E2E2F2B03F0CE00E0BD64 /* Sources */,
+				FD4E2E302B03F0CE00E0BD64 /* Frameworks */,
+				FD4E2E312B03F0CE00E0BD64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exam3_Maxey_Ethan Watch App";
+			productName = "Exam3_Maxey_Ethan Watch App";
+			productReference = FD4E2E332B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD4E2E1B2B03F0CC00E0BD64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FD4E2E222B03F0CC00E0BD64 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FD4E2E322B03F0CE00E0BD64 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FD4E2E1E2B03F0CC00E0BD64 /* Build configuration list for PBXProject "Exam3_Maxey_Ethan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD4E2E1A2B03F0CC00E0BD64;
+			productRefGroup = FD4E2E242B03F0CC00E0BD64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD4E2E222B03F0CC00E0BD64 /* Exam3_Maxey_Ethan */,
+				FD4E2E322B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD4E2E212B03F0CC00E0BD64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E2E2E2B03F0CE00E0BD64 /* Preview Assets.xcassets in Resources */,
+				FD4E2E2B2B03F0CE00E0BD64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E2E312B03F0CE00E0BD64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E2E402B03F0CE00E0BD64 /* Preview Assets.xcassets in Resources */,
+				FD4E2E3D2B03F0CE00E0BD64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD4E2E1F2B03F0CC00E0BD64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E2E292B03F0CC00E0BD64 /* ContentView.swift in Sources */,
+				FD4E2E272B03F0CC00E0BD64 /* Exam3_Maxey_EthanApp.swift in Sources */,
+				FD4E2E512B03F8FD00E0BD64 /* ImagePicker.swift in Sources */,
+				FD4E2E4F2B03F88E00E0BD64 /* Resnet50.mlmodel in Sources */,
+				FD4E2E532B03F94300E0BD64 /* Classifier.swift in Sources */,
+				FD4E2E552B03F96300E0BD64 /* ImageClassifier.swift in Sources */,
+				FD4E2E4C2B03F7E400E0BD64 /* SyncService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E2E2F2B03F0CE00E0BD64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E2E3B2B03F0CE00E0BD64 /* ContentView.swift in Sources */,
+				FD4E2E392B03F0CE00E0BD64 /* Exam3_Maxey_EthanApp.swift in Sources */,
+				FD4E2E4D2B03F7E400E0BD64 /* SyncService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD4E2E362B03F0CE00E0BD64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4E2E322B03F0CE00E0BD64 /* Exam3_Maxey_Ethan Watch App */;
+			targetProxy = FD4E2E352B03F0CE00E0BD64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD4E2E412B03F0CE00E0BD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD4E2E422B03F0CE00E0BD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FD4E2E442B03F0CE00E0BD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exam3_Maxey_Ethan Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 57X39L89Y4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exam3_Maxey_Ethan;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "none.Exam3-Maxey-Ethan";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Exam3-Maxey-Ethan.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		FD4E2E452B03F0CE00E0BD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exam3_Maxey_Ethan Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 57X39L89Y4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exam3_Maxey_Ethan;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "none.Exam3-Maxey-Ethan";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Exam3-Maxey-Ethan.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		FD4E2E482B03F0CE00E0BD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exam3_Maxey_Ethan/Preview Content\"";
+				DEVELOPMENT_TEAM = 57X39L89Y4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exam3_Maxey_Ethan;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Exam3-Maxey-Ethan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD4E2E492B03F0CE00E0BD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exam3_Maxey_Ethan/Preview Content\"";
+				DEVELOPMENT_TEAM = 57X39L89Y4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exam3_Maxey_Ethan;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Exam3-Maxey-Ethan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD4E2E1E2B03F0CC00E0BD64 /* Build configuration list for PBXProject "Exam3_Maxey_Ethan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4E2E412B03F0CE00E0BD64 /* Debug */,
+				FD4E2E422B03F0CE00E0BD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4E2E432B03F0CE00E0BD64 /* Build configuration list for PBXNativeTarget "Exam3_Maxey_Ethan Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4E2E442B03F0CE00E0BD64 /* Debug */,
+				FD4E2E452B03F0CE00E0BD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4E2E472B03F0CE00E0BD64 /* Build configuration list for PBXNativeTarget "Exam3_Maxey_Ethan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4E2E482B03F0CE00E0BD64 /* Debug */,
+				FD4E2E492B03F0CE00E0BD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD4E2E1B2B03F0CC00E0BD64 /* Project object */;
+}
